@@ -12,12 +12,13 @@ export default function WhyChooseBlue() {
                     <h2 className="text-4xl font-bold text-gray-900">
                         Why Choose <span className="text-emerald-600">Gulf Assignment Help</span>
                     </h2>
+
                     <p className="mt-4 text-gray-600 text-lg">
                         Professional academic writing services trusted by students across Oman and Gulf universities.
                     </p>
                 </div>
 
-                <div className="grid lg:grid-cols-2 gap-16 items-center">
+                <div className="grid lg:grid-cols-2 gap-50 items-center">
 
                     {/* Features */}
                     <div className="space-y-6">
@@ -50,14 +51,14 @@ export default function WhyChooseBlue() {
                     </div>
 
                     {/* Image */}
-                    <div className="flex justify-center">
+                    <div className="hidden md:flex justify-center ">
                         <Image
-                            src="/image.png"
-                            alt="Academic writing services"
-                            width={420}
-                            height={420}
-                            className="w-full max-w-md object-contain"
+                            src="/image7.png"
+                            alt="Student Assignment Help"
+                            width={2200}
+                            height={2200}
                             priority
+                            className="w-full object-contain scale-125"
                         />
                     </div>
 

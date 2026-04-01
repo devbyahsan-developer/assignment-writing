@@ -1,6 +1,6 @@
 
 import Hero from "@/components/hero"
-import HeroBlue from "@/components/heroblue"
+import HeroExactMatch from "@/components/heroblue"
 import WhyChooseBlue from "@/components/whychoose"
 import PremiumServices from "@/components/premiumservices"
 import ExpertWriters from "@/components/expertwriter"
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <HeroBlue />
+      <HeroExactMatch />
       <WhyChooseBlue />
       <PremiumServices />
       <ExpertWriters />
